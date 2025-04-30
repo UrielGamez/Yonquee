@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Autopartes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <script>
+        function verOfertas() {
+            alert('Redirigiendo a la página de ofertas...');
+            window.location.href = 'ofertas.html';
+        }
+        function ubicaTienda() {
+            alert('Redirigiendo a la ubicación de tiendas...');
+            window.location.href = 'ubicacion.html';
+        }
+        function compraRecoge() {
+            alert('Redirigiendo al sistema de compra en línea...');
+            window.location.href = 'compra.html';
+        }
+        function folletoPromocional() {
+            alert('Redirigiendo al folleto de promociones...');
+            window.location.href = 'folleto.html';
+        }
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <!--img src="imaguenes/F1Lotus.jpg" alt="Logo"-->
+        </div>
+        <nav class="nav-links"justify-content: center>
+            <ul>
+                <li><a href="#" onclick="alert('Menú desplegable próximamente');">Menú</a></li>
+                <li><a href="#" onclick="alert('Funcionalidad de búsqueda próximamente');">Encuentra Refacciones</a></li>
+                <li><a href="#" onclick="alert('Redirigiendo a inicio de sesión...'); window.location.href='login.html';">Ingresar</a></li>
+                <li><a href="#" onclick="alert('Redirigiendo al carrito de compras...'); window.location.href='carrito.html';"><i class="fas fa-shopping-cart"></i> Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Sección principal -->
+    <main class="main-content">
+        <section class="banner">
+            <h2>¡Aprovecha Ofertas de Semana Santa!</h2>
+            <button onclick="verOfertas()">Ver Ofertas</button>
+        </section>
+        
+        <section class="promociones">
+            <div class="promo-box" onclick="ubicaTienda()">
+                <h3>Ubica tu tienda</h3>
+                <p>Miles de productos para tu auto</p>
+            </div>
+            <div class="promo-box" onclick="compraRecoge()">
+                <h3>Clic, Compra y Recoge</h3>
+                <p>Haz tu pedido en línea</p>
+            </div>
+            <div class="promo-box" onclick="folletoPromocional()">
+                <h3>Folleto Promocional</h3>
+                <p>Las mejores ofertas y promociones</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
