@@ -13,9 +13,10 @@
     <ul class="navbar-nav ml-auto">
         <!-- Navbar Search -->
         <li class="nav-item">
-            <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-                <i class="fas fa-search"></i>
+            <a href="usuarios" class="nav-link">
+              <i class="nav-icon fa fa-user -sign text-info"></i>
             </a>
+          </li>
             <div class="navbar-search-block">
                 <form class="form-inline">
                     <div class="input-group input-group-sm">

@@ -1,5 +1,5 @@
 <footer class="main-footer text-center bg-dark text-white p-3">
-    <strong>&copy; 2025 Yonque El Chennes.</strong> Todos los derechos reservados.
+    <strong>&copy; 2025 Yonque.</strong> Todos los derechos reservados.
     <br>
     <p>Contacto: chenessyonque@gmail.com | Tel: +52 6731389905</p>
 </footer>

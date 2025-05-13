@@ -4,27 +4,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Registro de Usuario</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        form { width: 300px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
-        input, button { width: 100%; margin: 5px 0; padding: 10px; }
-    </style>
+    <title>Formulario de Registro</title>
+
 </head>
 <body>
-    
+    <h1>Registro de Usuarios</h1>
+    <form action="insertarusuarios.php" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
 
-    <h2>Registro de Usuario </h2>
-    <div class="carousel">
-    <form action="guardar_usuario.php" method="POST">
-        <input type="text" name="nombre" placeholder="Nombre Completo" required>
-        <input type="email" name="email" placeholder="Correo Electrónico" required>
-        <input type="text" name="telefono" placeholder="Teléfono">
-        <input type="date" name="fecha_nacimiento" required>
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
         <button type="submit">Registrar</button>
-</div>
     </form>
-
 </body>
 </html>
 

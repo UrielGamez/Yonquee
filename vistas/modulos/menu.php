@@ -104,7 +104,7 @@
               <i class="nav-icon fa fa-dollar-sign text-info"></i>
               <p>Ventas</p>
             </a>
-          </li-->
+          </li>
           <li class="nav-item">
             <a href="usuarios" class="nav-link">
               <i class="nav-icon fa fa-user -sign text-info"></i>
@@ -118,7 +118,7 @@
             </a>
           </li>
         </ul>
-      </nav>
+      </nav-->
       <!-- /.sidebar-menu -->
       </div>
     <!-- /.sidebar -->
